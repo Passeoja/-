@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자판기</title>
+</head>
+
+<body>
+    <h1>무언가를 랜덤하게 출력시키는 코드입니다.</h1>
+
+
+
+    <button onclick="next()">출력하기</button>
+
+    <script>
+        function next(){
+        const list = ['ex1', 'ex2', 'ex3'];
+        const randomIndex = Math.floor(Math.random() * list.length);
+        alert(list[randomIndex]);
+        }
+
+    </script>
+</body>
+</html>
